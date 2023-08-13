@@ -61,7 +61,7 @@ body {
 .img {
  height: 6rem; 
  width: 6rem;
- background-image: url('profile/profile.png');
+ background-image: url('profile.png');
  background-size: cover;
  background-position: center; 
  border-radius: 50%;
