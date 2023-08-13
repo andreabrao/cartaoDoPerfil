@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+  color: #f2f2f2f2;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2f2;
+}
+
+.card {
+  height: 22rem;
+  width: 15rem;
+  display: flex;
+  background-color: #7f7f5f;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.8rem;
+}
+
+.card, .profile-image, .fab, .contact-me {
+  box-shadow: -0.1rem -0.1rem 0.3rem #fff 0.1rem 0.1rem 0.3rem;
+}
+
+.profile-image {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+  margin: 1rem 0;
+  font-size: 18px;
+  margin-block-end: 10px;
+}
+
+.social-icons {
+  margin: 1rem;
+}
+
+.fab {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.img {
+ height: 6rem; 
+ width: 6rem;
+ background-image: url('profile/profile.png');
+ background-size: cover;
+ background-position: center; 
+ border-radius: 50%;
+ border: solid #f2f2f2f2 3px;
+}
+
+.contact-me {
+  background: none;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 50px;
+  border-right: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.fab:hover, .contact-me:hover {
+  box-shadow: inset -0.1rem -0.1rem 0.3rem #fff;
+  inset: -0.1rem -0.1rem 0.3rem #868686;
+  cursor: pointer;
+}
